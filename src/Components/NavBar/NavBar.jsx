@@ -1,5 +1,8 @@
 import React from "react"
 import CartWidget from "../CartWidget/CartWidget.jsx";
+import ProductosMates from "../Pages/ProductosPage.jsx";
+import {Link} from "react-router-dom";
+import img from "../NavBar/logobrand.jpg"
 
 const NavBar = ({ color }) => {
 
@@ -8,24 +11,29 @@ return(
         <ul
         style={{
             display:"flex",
-            height:"100px",
+            height:"180px",
             color:"white",
             justifyContent:"space-around",
             alignItems:"center",
         }}
         >
-        <li style={{ listStyle:"none"}} >
-        <a href="www.google.com" style={{textDecoration: "none", color:"white"}}> Inicio</a>
-            </li>
-        <li style={{ listStyle:"none"}} >
-        <a href="www.google.com" style={{textDecoration: "none", color:"white"}}> Productos</a>
-            </li>
-        <li style={{ listStyle:"none"}} >
-        <a href="www.google.com" style={{textDecoration: "none", color:"white"}}> Nosotros</a>
-            </li>
-        <li style={{ listStyle:"none"}} >
-        <a href="www.google.com" style={{textDecoration: "none", color:"white"}}> Contacto</a>
-            </li>
+        <div>
+            <Link to={"/"}>
+            <img src={img} alt="logo" width={250} height={150}/>
+            </Link>
+            </div>
+        <Link style={{ listStyle:"none"}} to="/">
+        <a style={{textDecoration: "none", color:"white"}}> Inicio</a>
+            </Link>
+        <Link style={{ listStyle:"none"}} to="/Productos">
+        <a style={{textDecoration: "none", color:"white"}}> Productos</a>
+            </Link>
+        <Link style={{ listStyle:"none"}} to="/About">
+        <a style={{textDecoration: "none", color:"white"}}> Nosotros</a>
+            </Link>
+        <Link style={{ listStyle:"none"}} to="/Contact">
+        <a style={{textDecoration: "none", color:"white"}}> Contacto</a>
+            </Link>
             <CartWidget/>
         </ul>
     </nav>

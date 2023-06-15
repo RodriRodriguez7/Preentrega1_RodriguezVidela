@@ -1,0 +1,32 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Mate de calabaza",
+      "precio": 7000,
+      "imagen": "http://www.regionalesdelabasto.com/wp-content/uploads/2021/11/Mate-imperial-marron-copia.jpg",
+      "descripcion": "El mate de calabaza es una opción tradicional para disfrutar de la yerba mate. Hecho a mano con calabaza natural y con un diseño único."
+    },
+    {
+      "id": 2,
+      "nombre": "Bombilla de acero inoxidable",
+      "precio": 1500,
+      "imagen": "https://basel.com.ar/wp-content/uploads/2023/04/BASEL-2023-BA8.png",
+      "descripcion": "La bombilla de acero inoxidable es duradera y resistente. Proporciona un flujo de agua constante al tomar mate y es fácil de limpiar."
+    },
+    {
+      "id": 3,
+      "nombre": "Yerba mate Canarias",
+      "precio": 2200,
+      "imagen": "https://d2r9epyceweg5n.cloudfront.net/stores/941/465/products/6a40b04b-cd4d-4155-9ccb-f36c301efa02_nube-39f5376672ce4c78f515968373570276-640-0.jpg",
+      "descripcion": "La yerba mate Canarias es elaborada con hojas de yerba mate seleccionadas y secadas. Tiene un sabor suave y equilibrado."
+    },
+    {
+      "id": 4,
+      "nombre": "Termo de acero inoxidable",
+      "precio": 15000,
+      "imagen": "https://d22fxaf9t8d39k.cloudfront.net/3996e1b096c81cc686c1a58cb8f69e81d58ca0fc1e1d1a4741517ba4f0e449b3110909.jpeg",
+      "descripcion": "El termo de acero inoxidable mantiene la temperatura del agua caliente durante horas. Perfecto para llevar tu mate a cualquier lugar."
+    }
+  ]
+}
